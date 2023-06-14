@@ -1,0 +1,10 @@
+body{
+margin: 0;
+padding: 0;
+clear: both;
+overflow-x:hidden ;
+}
+:root{
+    --blue:#0046bf;
+    --green:#11d175;
+}

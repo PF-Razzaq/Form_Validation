@@ -1,0 +1,168 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+    clear: both !important;
+   overflow-y: scroll;
+    overflow-x: hidden !important;
+    /* display: flex !important; */
+    position: relative;
+}
+
+:root {
+    --blue: #0046bf;
+    --green: #11d175 !important;
+}
+
+.side{
+    background-color:var(--green) ;
+    height: 100vh;
+}
+
+.admin img{
+    width: 30px;
+    display: inline;
+}
+.admin p {
+    display: inline;
+    font-size: 20px;
+}
+.top-header{
+    float: right;
+    width: 100%;
+}
+.header{
+    float: right;
+    display: flex;
+}
+
+.logout{
+    display: flex;
+}
+
+.notification i{
+            text-align: right;
+}
+
+.cards .card{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.sidebar {
+    position: fixed !important;
+    /* clear: both !important; */
+}
+
+.main-body {
+   position: absolute;
+    margin-left: 15px !important;
+    position: absolute !important;
+   right: 0;
+}
+
+@media only screen and (min-width:1400px) {
+    .sidebar{
+        font-size: 30px !important;
+    }
+     .navs{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+     }
+     .nav-item{
+        margin-bottom: 10px;
+        font-size: 25px !important;
+     }
+     .sidebar h4{
+        font-size: 35px !important;
+     }
+     .sidebar p{
+        font-size: 35px !important;
+     }
+     .sidebar img{
+        width: 20%;
+     }
+}
+
+@media only screen and (min-width:992px) {
+
+     .navs{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+     }
+
+     .sidebar h4{
+        font-size: 25px !important;
+     }
+     .sidebar p{
+        font-size: 25px !important;
+     }
+     .sidebar img{
+        width: 15%;
+     }
+}
+@media only screen and (min-width:768px) {
+    .sidebar {
+            font-size: 30px !important;
+        }
+     .navs{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+     }  
+     .nav-item {
+                    margin-bottom: 10px;
+                      font-size: 25px !important;
+                  }
+     .sidebar h4{
+        font-size: 25px !important;
+     }
+     .sidebar p{
+        font-size: 25px !important;
+     }
+     .sidebar img{
+        width: 15%;
+     }
+     .small-box{
+        margin-bottom: 2rem !important;
+     }
+}
+@media only screen and (max-width:768px) {
+     .navs{
+      display: flex;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+     }  
+     .sidebar img{
+        width: 15%;
+     }
+                .nav-item {
+                    margin-bottom: 10px;
+                    font-size: 20px !important;
+                }
+                                .small-box {
+                                    margin-bottom: 2rem !important;
+                                }
+}
+@media only screen and (max-width:768px) {
+     .sidebar img{
+        width: 15%;
+     }
+                .nav-item {
+                    margin-bottom: 10px;
+                    font-size: 16px;
+                    text-align: left;
+                }
+}
+
+@media only screen and (max-width:576px) {
+   .side-bar{
+    display: none;
+   }
+
+}

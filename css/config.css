@@ -1,0 +1,172 @@
+body {
+    /* background-color: var(--green); */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --blue: #0046bf;
+    --green: #11d175;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.config_form {
+    border-radius: 4px;
+    margin-top: 1%;
+    margin-left: 10%;
+    width: 71%;
+    background-color: whitesmoke;
+    height: auto;
+    box-shadow: 0px 2px 6px 0 rgb(236, 236, 236),
+        0 6px 6px 0 rgb(240, 240, 240);
+}
+
+.form-head {
+    /* position: relative; */
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+.form-head h2 {
+    margin-left: 5%;
+    margin-top: 5%;
+    padding-top: 15px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+.input_box {
+    margin-left: 10%;
+    width: 80%;
+    align-items: center;
+    background-color: lightgray;
+    border-radius: 3px;
+    display: flex;
+    margin-top: 1%;
+}
+
+/* label div */
+.input_label {
+    /* justify-content: left; */
+    /* align-items: center; */
+    text-align: left;
+    height: 100%;
+    float: left;
+    margin-left: 2%;
+    width: 30%;
+    color: rgb(12, 12, 12);
+}
+
+.input_box select {
+    height: 35px;
+    width: 50%;
+    margin-left: 18%;
+    font-size: medium;
+    color: rgb(12, 12, 12);
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 5px;
+}
+
+.input_box input {
+    height: 35px;
+    width: 50%;
+    font-size: medium;
+    color: rgb(12, 12, 12);
+    border: 1px solid rgb(12, 12, 12);
+    border-radius: 5px;
+}
+
+.input_box input::placeholder {
+    color: rgb(12, 12, 12);
+}
+
+/* checkbox boxes */
+.check_boxes {
+    height: 100%;
+    width: 50%;
+    margin-left: 10%;
+    font-size: medium;
+    color: rgb(19, 18, 18);
+    border-radius: 20px;
+    display: flex;
+    float: left;
+}
+
+.checks {
+    text-align: left;
+    align-items: center;
+    width: 50%;
+    float: left;
+    display: flex;
+    /* margin: 5px; */
+}
+
+.checkbox {
+    float: left;
+    background-color: red;
+}
+
+.checks input[type="checkbox"] {
+    background-color: red;
+}
+
+.check-box input {
+    width: 20px;
+    height: 20px;
+}
+
+.input_box input[type="radio"] {
+    display: none;
+}
+
+.input_box input[type="radio"]:checked+label {
+    background-color: var(--blue);
+    cursor: pointer;
+    color: #E6E6E6;
+}
+
+/* toggle button style */
+.options {
+    display: flex;
+    float: left;
+    margin-left: 40%;
+}
+
+.input_box label[id="btn"] {
+    margin-left: 10%;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    border: thin solid;
+    border-radius: 10px;
+    color: rgb(12, 12, 12);
+    margin: 2px;
+}
+
+
+/* Save button */
+.button_box {
+    width: 100%;
+}
+
+.button_box {
+    width: 100%;
+}
+
+.button_box button {
+    float: right;
+    padding: 10px 20px;
+    color: white;
+    background-color: var(--blue);
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;    
+}
