@@ -1,3 +1,9 @@
+body{
+    margin: 0;
+    padding: 0;
+    clear: both;
+    overflow: hidden;
+}
 #board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -22,4 +28,39 @@ button {
 
 h1 {
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 300px !important;
+    }
+}
+@media only screen and (max-width:768px) {
+    .container{
+        width: 350px !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container{
+        width: 350px !important;
+    }
+        .cell {
+            margin-left: 17px;
+        }
+}
+@media only screen and (max-width: 1200px) {
+    .container{
+        width: 400px !important;
+    }
+         .cell {
+             margin-left: 17px;
+         }
+}
+@media only screen and (min-width: 1200px) {
+    .container{
+        width: 500px !important;
+    }
+    .cell{
+        margin-left: 35px ;
+    }
 }
