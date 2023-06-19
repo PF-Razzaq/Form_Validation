@@ -1,0 +1,111 @@
+$color_green:#19e58c;
+$color_blue:#243ab1;
+
+.container{
+    .row {
+            .first-left {
+                height: 14rem;
+                background-color: $color_green;
+            }
+    
+            .col-lg-8 {
+                height: 10rem;
+    
+                .col-lg-3 {
+                    height: 6rem;
+                    background-color: $color_green;
+                    margin: 0 0 30px 3rem;
+                }
+            }
+        }
+    .middle-container{
+        height: 8rem;
+        background-color: $color_green;
+    }
+    .buttom{ 
+        .col-lg-2{
+            height: 6rem;
+            background-color: $color_green;
+        }
+    }
+}
+
+                              // for tablet
+
+@media only screen and (max-width: 992px) {
+.container {
+        .row {
+            .first-left {
+                height: 14rem;
+                background-color: $color_green;
+            }
+
+            .col-lg-8 {
+                height: 10rem;
+                margin-top: 30px;
+                .col-lg-3 {
+                    height: 6rem;
+                    background-color: $color_green;
+                    margin: 0 0 30px 0;
+                    margin-right:2rem ;
+                }
+            }
+        }
+
+        .middle-container {
+            margin-top: 5rem;
+            height: 8rem;
+            background-color: $color_green;
+        }
+
+        .buttom {
+            .col-lg-2 {
+                height: 6rem;
+                background-color: $color_green;
+            }
+        }
+    }
+}
+
+//////////////////  for Mobile///////////////////////
+@media only screen and (max-width: 768px) {
+    .container {
+        .row {
+            .first-left {
+                display: none;
+            }
+
+            .col-lg-8 {
+                height: 10rem;
+                width: 80%;
+                margin:0 auto;
+                margin-top: 1rem;
+
+                .col-lg-3 {
+                    height: 6rem;
+                    width: 40%;
+                    background-color: $color_green;
+                    margin: 0 0 30px 0;
+                }
+            }
+        }
+
+        .middle-container {
+                display: none;
+        }
+
+        .buttom {
+            width: 84%;
+            margin: 0 auto;
+            .col-lg-2 {
+                margin-top: 180px;
+                    height: 6rem;
+                    width: 40%;
+                    background-color: #19e58c;
+            }
+            .third, .four{
+                margin-top: 30px;
+            }
+        }
+    }
+}
